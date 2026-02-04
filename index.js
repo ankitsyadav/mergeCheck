@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/merge-check', (req, res) => {
-  res.send('Merge check endpoint is working!');
+  res.send('Merge check endpoint is working! my name is ridhi');
 });
 
 app.get((req, res) => {
